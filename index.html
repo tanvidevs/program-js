@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add EventListner</h1>
+    <button id="btn">send</button>
+    <script>
+        function show(){
+            alert('button click');
+
+        }
+                         
+            var a=document.getElementById('btn');
+            a.addEventListener('click',show);
+        
+    </script>
+</body>
+</html>
+
+<!--second progrma-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overwrite</title>
+</head>
+<body>
+    <h1>Overwrite</h1>
+    <button id="mybtnn">send</button>
+    <script>
+        function show1(){
+            alert('button click 1');
+        }
+        function show2(){
+            alert('button click 2');
+        }
+        var b=document.getElementById('mybtnn');
+        b .addEventListener("click",show1);
+        b . addEventListener("click",show2);
+   
+    </script>
+</body>
+</html>
+<!--Add event listner-->
+<!--therd program-->
+
+
+    
+        
